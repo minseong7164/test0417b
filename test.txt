@@ -57,3 +57,7 @@ git.github 테스트
 18 푸시
 		git push -u origin main
 		git push origin main
+ 
+[협엽]
+settings -> Collaborators -> Add people 실행 -> 상대 메일 등록
+-> 상대는 메일 접속하고 메일에서 확인 하면 저장공간 공유
