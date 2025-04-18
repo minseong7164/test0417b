@@ -52,7 +52,7 @@ git.github 테스트
 		git add . 
 16. 커밋 대기
 	 git commit -m "메세지"
-17. 브런치명 설정
+17. 브런치명 설정(생략)
 	git pull origin main
 18 푸시
 		git push -u origin main
