@@ -10,3 +10,38 @@ git.github 테스트
 브랜치
 버전관리 기능
 코드를 수정하고 저장할 때 마다 그 분기점을 저장해 놓아서 이후 그 지점으로 복귀 할 수 있으며, 이전과 비교하여 달라진 점등을 확인할 수 있는 기능입니다.  백업용으로 핵심 기능입니다.
+
+6. git 로컬 저장소 새성
+  git init
+	ls -al
+	숨긴 디렉토리까지 확인
+
+7. git에 버전 관리 파일들을 
+	test.txt, index.html
+
+8. 버전관리 파일 선택
+	파일을 하나만 선택
+	-git add 파일명.확장자\
+	-git add test.txt
+	파일을 여러개 선택
+	-git add .
+
+9. 버전관리 파일 커밋
+	git commit -m "index.html 버전관리"
+
+10. 로그 확인
+	git log
+
+11. 로컬 저장소에 github 저장소 주소 설정
+	git remote add origin git@github.com:gomaci/test01.git
+
+	-> 연결 상태
+	git remote -v
+	-> 연결 해제
+	git remote remove origin
+
+	*****웹 자격 증명 관리 =>  window 자격증명에서 깃허브 계정 편집및 삭제
+14. 만든 커밋 커밋 github 푸시
+	git push -u origin master
+	git 
+
